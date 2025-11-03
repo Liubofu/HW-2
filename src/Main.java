@@ -67,8 +67,8 @@ public class Main {
         System.out.println(" Всего работников в компании " + "- " + stuff + " человек");
 
         var totalStuff = stuff + 94;
-        var workTime = oneEmployeeTime * (stuff + 94);
-        System.out.println(" Если в компании работает " + (stuff + 94) + " человека," + " то всего " + oneEmployeeTime * (stuff + 94) + " часов работы может быть поделено между сотрудниками.");
+        var workTime = oneEmployeeTime * totalStuff;
+        System.out.println(" Если в компании работает " + totalStuff + " человека," + " то всего " + workTime + " часов работы может быть поделено между сотрудниками.");
 
     }
 }
